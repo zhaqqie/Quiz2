@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".DetailActivity"
+    android:background="#eadfb4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Invoice Rental PS Thanos"
+        android:paddingBottom="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Type :"
+        android:paddingBottom="20dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tvTambahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Tambahan :"
+        android:paddingBottom="20dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tvWaktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Waktu :"
+        android:paddingBottom="20dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Total :"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
